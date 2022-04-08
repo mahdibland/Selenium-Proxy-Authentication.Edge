@@ -26,7 +26,7 @@ https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
 private static readonly EdgeOptions EdgeOptions = new();
 ```
  
-- Attach your proxy to the chrome option using the extension method that comes with nuget package
+- Attach your proxy to the edge option using the extension method that comes with nuget package
 
 ```C#
 EdgeOptions.AddProxyAuthenticationExtension(new SeleniumProxyAuthentication.Proxy(
@@ -48,7 +48,7 @@ driver.Navigate().GoToUrl(new Uri("https://myip.ms"));
 EdgeOptions.DeleteExtensionsCache();
 ```
 
-* also see the sample project to see how it's work <a href="https://github.com/mahdibland/Selenium-Proxy-Authentication.Chrome/blob/main/SeleniumProxyAuthentication.Sample/Program.cs">Link to sample project</a>
+* also see the sample project to see how it's work <a href="https://github.com/mahdibland/SeleniumProxyAuthentication.Edge/blob/8f86ea44b0331f3336749abc204dafb7da351b11/SeleniumProxyAuthentication.Sample/Program.cs">Link to sample project</a>
 
 ##  Guides
 
