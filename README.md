@@ -18,7 +18,7 @@ Install-Package SeleniumProxyAuthentication.Edge -Version 1.0.0
 ```
 https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
 ```
-- Then put the msedgedriver.exe in your project directory
+- Then put "msedgedriver.exe" in your project bin directory
 
 - Create a new Instance of EdgeOptions class
 
