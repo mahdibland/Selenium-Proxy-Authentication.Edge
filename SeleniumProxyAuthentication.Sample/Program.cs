@@ -11,7 +11,7 @@ namespace SeleniumProxyAuthentication.Sample
             try
             {
                 // with proxy credential
-                EdgeOptions.AddProxyAuthenticationExtension(new Proxy(ProxyProtocols.HTTP, "209.127.191.180:9279:iazgeluc:buxw7bzlke0x"));
+                EdgeOptions.AddProxyAuthenticationExtension(new Proxy(ProxyProtocols.HTTP, "proxy_server:proxy_port:proxy_username:proxy_password"));
 
                 // without proxy credential
                 //EdgeOptions.AddProxyAuthenticationExtension(new Proxy(ProxyProtocols.HTTP, "proxy_server:proxy_port"));
